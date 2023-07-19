@@ -1,0 +1,293 @@
+@font-face {
+    font-family: Mulish;
+    src: url(./fonts/Mulish-Regular.ttf) format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Mulish;
+    src: url(./fonts/Mulish-ExtraBold.ttf) format('truetype');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: Mulish;
+    src: url(./fonts/Mulish-Bold.ttf) format('truetype');
+    font-weight: 700;
+}
+
+* {
+    font-family: Mulish;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 400;
+}
+
+body {
+    width: 1120px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #001A49;
+    font: 800 30px Mulish;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav p {
+    color: #001A49;
+    font: 700 16px Mulish;
+}
+
+header nav p:not(:last-child) {
+    margin-right: 37px;
+}
+
+header .btn {
+    text-align: center;
+    width: 147px;
+    padding: 15px 0;
+    border-radius: 33px;
+    background: linear-gradient(44deg, #8FBBE5 0%, #3D75BF 100%);
+    color: #FFF;
+    font: 700 16px Mulish;
+}
+
+header .btn:active {
+    background: linear-gradient(44deg, #0e7de5 0%, #52015e 100%);
+
+}
+
+.preview-landing {
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    margin-top: 160px;
+    margin-bottom: 203px;
+}
+
+.preview-landing .left {
+    width: 540px;
+}
+
+.preview-landing .left h1 {
+    color: #001A49;
+    font: 800 60px Mulish;
+    margin-bottom: 20px;
+}
+
+.preview-landing .left p {
+    color: #4F596A;
+    font: 400 20px Mulish;
+    margin-bottom: 35px;
+}
+
+.preview-landing .left .btn {
+    width: 206px;
+    border-radius: 33px;
+    background: linear-gradient(44deg, #8FBBE5 0%, #3D75BF 100%);
+    padding: 17px 0;
+    color: #FFF;
+    font: 700 16px Mulish;
+    text-align: center;
+}
+
+.preview-landing .btn:active {
+    background: linear-gradient(44deg, #0e7de5 0%, #52015e 100%);
+}
+
+.preview-landing .img {
+    background-image: url(./assects/Group\ 7.png);
+    width: 590px;
+    height: 360px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.statistic {
+    position: relative;
+}
+
+.statistic .table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 21px;
+    border: 1px solid #E7EAEB;
+    background: #FFF;
+    position: relative;
+    z-index: 2;
+
+}
+
+.statistic .table .item {
+    width: 373px;
+    text-align: center;
+    padding: 50px 0;
+
+}
+
+.statistic .table .item:not(:last-child) {
+    border-right: 1px solid #E7EAEB;
+}
+
+.statistic .table .item h2 {
+    color: #001A49;
+    text-align: center;
+    font: 800 40px Mulish;
+}
+
+.statistic .oval {
+    position: absolute;
+    top: 20px;
+    left: -70px;
+    background-image: url(./assects/Side\ Shape.png);
+    width: 288px;
+    height: 288px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.advantages .heading {
+    display: flex;
+    flex-direction: column;
+    width: 637px;
+    margin-top: 194px;
+    margin-left: 260px;
+}
+
+.advantages .heading h1 {
+    color: #001A49;
+    text-align: center;
+    font: 800 46px Mulish;
+}
+
+.advantages .heading p {
+    color: #4F596A;
+    text-align: center;
+    font: 400 20px Mulish;
+    width: 560px;
+    margin: 1px auto 61px;
+}
+
+.element {
+    display: flex;
+    border-radius: 21px;
+    background: #EEF7FF;
+    align-items: center;
+    justify-content: flex-start;
+    height: 172px;
+    padding-left: 46px;
+    padding-right: 30px;
+}
+
+.element:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.element .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.element .text h3 {
+    color: #001A49;
+    font: 800 24px Mulish;
+    margin-bottom: 20px;
+}
+
+.element .text p {
+    color: #4F596A;
+    font: 400 16px Mulish;
+}
+
+.element .img-group {
+    background-image: url(./assects/Group\ 8\ \(1\).png);
+    width: 64px;
+    height: 64px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 8px 16px rgba(0, 0, 0, 0.05));
+}
+
+.registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 122px;
+}
+
+.registration .img-marico1 {
+    background-image: url(./assects/Marico.png);
+    width: 153px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.registration h2 {
+    color: #001A49;
+    font: 800 50px Mulish;
+    margin-top: 11px;
+    margin-bottom: 12px;
+}
+
+.registration .btn {
+    width: 206px;
+    border-radius: 33px;
+    background: linear-gradient(44deg, #8FBBE5 0%, #3D75BF 100%);
+    padding: 17px 0;
+    color: #FFF;
+    font: 700 16px Mulish;
+    text-align: center;
+    margin-bottom: 129px;
+
+}
+
+.registration .btn:active {
+    background: linear-gradient(44deg, #0e7de5 0%, #52015e 100%);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .hschool {
+    display: flex;
+    align-items: center;
+}
+
+footer .hschool .img-marico2 {
+    background-image: url(./assects/Marico.png);
+    width: 79px;
+    height: 56px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+footer .hschool h2 {
+    color: #001A49;
+    font-family: Mulish;
+    font-size: 37px;
+    font-weight: 800;
+}
+
+footer p {
+    color: #707070;
+    font: 500 28px Mulish;
+}
